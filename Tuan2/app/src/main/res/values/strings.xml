@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Donation.1.5</string>
+    <string name="titleApp">Donation.1.5</string>
+    <string name="please_give_generously">Please Give Generously</string>
+    <string name="denotion_1_5">Denotion.1.5</string>
+    <string name="welcome_homer">Welcome Homer</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="radiobutton1">RadioButton</string>
+    <string name="item_1">item 1</string>
+</resources>
