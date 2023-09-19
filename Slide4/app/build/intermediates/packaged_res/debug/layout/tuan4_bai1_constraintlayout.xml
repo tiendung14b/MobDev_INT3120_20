@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#3d4db8"
+        app:title="Donation.1.5"
+        app:titleTextColor="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleapp"
+        app:layout_constraintStart_toStartOf="@+id/toolbar"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:padding="10dp"
+        android:text="Welcome Homer"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/anxin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleapp"
+        android:layout_marginStart="16dp"
+        android:padding="10dp"
+        android:text="Please Give Generously"
+        android:textColor="#777"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="@+id/titleapp"
+        app:layout_constraintTop_toBottomOf="@+id/titleapp" />
+
+    <RadioGroup
+        android:id="@+id/payment"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_below="@id/anxin"
+        android:layout_marginStart="28dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numberPicker1"
+        app:layout_constraintStart_toStartOf="@+id/anxin"
+        app:layout_constraintTop_toTopOf="@+id/numberPicker1">
+
+        <RadioButton
+            android:id="@+id/paypal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Paypal"
+            android:textColor="#3d4db8"/>
+
+        <RadioButton
+            android:id="@+id/direct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Direct"
+            android:textColor="#3d4db8"/>
+    </RadioGroup>
+
+
+    <NumberPicker
+        android:id="@+id/numberPicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_below="@id/anxin"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="41dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumberDecimal1"
+        app:layout_constraintEnd_toEndOf="@+id/progressAmount"
+        app:layout_constraintTop_toTopOf="@+id/anxin"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ProgressBar
+        android:id="@+id/progressAmount"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/payment"
+        android:layout_marginBottom="206dp"
+        android:progressBackgroundTint="@color/design_default_color_primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressAmount"
+        android:layout_alignParentLeft="true"
+        android:padding="20dp"
+        android:text="Amount"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/progressAmount"
+        app:layout_constraintTop_toBottomOf="@+id/progressAmount" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal1"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressAmount"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="25dp"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/numberPicker1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/payment"
+        app:layout_constraintTop_toBottomOf="@+id/progressAmount" />
+
+    <Button
+        android:id="@+id/donate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amount"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="68dp"
+        android:text="Donate"
+        android:backgroundTint="#999"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amount"
+        android:layout_toRightOf="@id/donate"
+        android:text="Total so Far: "
+        app:layout_constraintBaseline_toBaselineOf="@+id/moneyTotal"
+        app:layout_constraintEnd_toStartOf="@+id/moneyTotal" />
+
+    <TextView
+        android:id="@+id/moneyTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amount"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="23dp"
+        android:layout_toRightOf="@id/total"
+        android:text="$727"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal1"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_email_24"
+        tools:layout_editor_absoluteX="345dp"
+        tools:layout_editor_absoluteY="663dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-  
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/otp1"
+        android:title="opt1"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_launcher_background"
+        android:orderInCategory="100">
+        <menu>
+            <item android:title="hell" />
+        </menu>
+    </item>
+    <item android:title="hll"
+        >
+        <menu>
+            <item>jfsldkfj</item>
+        </menu>
+    </item>
+    <group>
+        <item
+            android:id="@+id/otp2"
+            android:title="otp2"
+            android:orderInCategory="100" />
+        <item
+            android:id="@+id/otp3"
+            android:title="otp3"
+            android:orderInCategory="400" />
+    </group>
+    <item
+        android:id="@+id/another_menu"
+        android:title="otp5"
+        android:orderInCategory="900">
+        <menu>
+            <item android:title="hello" />
+            <item android:title="mmm" />
+        </menu>
+    </item>
+
 </menu>
