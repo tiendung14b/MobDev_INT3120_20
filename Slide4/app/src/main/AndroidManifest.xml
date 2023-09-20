@@ -13,13 +13,19 @@
         android:theme="@style/Theme.Slide4"
         tools:targetApi="31">
         <activity
+            android:name=".CompleteTextViw"
+            android:exported="false" />
+        <activity
+            android:name=".GridView"
+            android:exported="false" />
+        <activity
             android:name=".Spinner"
             android:exported="false" />
         <activity
             android:name=".ListView"
             android:exported="false" />
         <activity
-            android:name=".Tuan4Bai1ConstraintlayoutActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,6 +33,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Tuan4Bai1ConstraintlayoutActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

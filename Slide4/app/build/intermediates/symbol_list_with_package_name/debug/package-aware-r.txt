@@ -3181,6 +3181,7 @@ id easeInOut
 id easeOut
 id east
 id edge
+id edit
 id editTextNumberDecimal1
 id edit_query
 id elastic
@@ -3214,6 +3215,7 @@ id ghost_view_holder
 id gone
 id graph
 id graph_wrap
+id grid
 id group_divider
 id grouping
 id groups
@@ -3311,6 +3313,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id myLinearLayout
 id name
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
@@ -3409,6 +3412,7 @@ id search_view_toolbar_container
 id search_voice_btn
 id select_dialog_listview
 id selected
+id selection
 id selection_type
 id shape_1
 id shape_2
@@ -3429,6 +3433,7 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id spinner
 id spline
 id split_action_bar
 id spread
@@ -3639,8 +3644,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_complete_text_viw
+layout activity_grid_view
 layout activity_list_view
 layout activity_main
+layout activity_spinner
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3726,6 +3734,7 @@ layout tuan4_bai2_constraintlayout
 layout tuan4_bai2_linearlayout
 layout tuan4_bai2_relativelayout
 layout tuan4_bai2_tablelayout
+menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description

@@ -20,7 +20,7 @@
 15-->[androidx.core:core:1.9.0] C:\Users\dung1\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:5:5-27:19
+17-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:5:5-39:19
 18        android:allowBackup="true"
 18-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -44,49 +44,73 @@
 29-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:13:9-44
 30        <activity
 30-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:15:9-17:40
-31            android:name="com.example.slide4.ListView"
-31-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:16:13-37
+31            android:name="com.example.slide4.CompleteTextViw"
+31-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:16:13-44
 32            android:exported="false" />
 32-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:17:13-37
 33        <activity
-33-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:18:9-26:20
-34            android:name="com.example.slide4.Tuan4Bai1ConstraintlayoutActivity"
-34-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:19:13-62
-35            android:exported="true" >
-35-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:20:13-36
-36            <intent-filter>
-36-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:21:13-25:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:22:17-69
-37-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:22:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:24:17-77
-39-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:24:27-74
-40            </intent-filter>
-41        </activity>
-42
-43        <provider
-43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dung1\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-44            android:name="androidx.startup.InitializationProvider"
-44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dung1\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-45            android:authorities="com.example.slide4.androidx-startup"
-45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dung1\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-46            android:exported="false" >
-46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dung1\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-47            <meta-data
-47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dung1\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dung1\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-49                android:value="androidx.startup" />
-49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dung1\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-50            <meta-data
-50-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dung1\.gradle\caches\transforms-3\4eb4b953398cff91e70e367f7f0f5a04\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-51-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dung1\.gradle\caches\transforms-3\4eb4b953398cff91e70e367f7f0f5a04\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-52                android:value="androidx.startup" />
-52-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dung1\.gradle\caches\transforms-3\4eb4b953398cff91e70e367f7f0f5a04\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-53        </provider>
-54    </application>
-55
-56</manifest>
+33-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:18:9-20:40
+34            android:name="com.example.slide4.GridView"
+34-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:19:13-37
+35            android:exported="false" />
+35-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:20:13-37
+36        <activity
+36-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:21:9-23:40
+37            android:name="com.example.slide4.Spinner"
+37-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:22:13-36
+38            android:exported="false" />
+38-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:23:13-37
+39        <activity
+39-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:24:9-26:40
+40            android:name="com.example.slide4.ListView"
+40-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:25:13-37
+41            android:exported="false" />
+41-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:26:13-37
+42        <activity
+42-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:27:9-35:20
+43            android:name="com.example.slide4.MainActivity"
+43-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:28:13-41
+44            android:exported="true" >
+44-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:29:13-36
+45            <intent-filter>
+45-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:30:13-34:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:31:17-69
+46-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:31:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:33:17-77
+48-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:33:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:36:9-38:39
+52            android:name="com.example.slide4.Tuan4Bai1ConstraintlayoutActivity"
+52-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:37:13-62
+53            android:exported="true" />
+53-->D:\Workspace\Android_ex\Slide4\app\src\main\AndroidManifest.xml:38:13-36
+54
+55        <provider
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dung1\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dung1\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+57            android:authorities="com.example.slide4.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dung1\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dung1\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dung1\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dung1\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dung1\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dung1\.gradle\caches\transforms-3\4eb4b953398cff91e70e367f7f0f5a04\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dung1\.gradle\caches\transforms-3\4eb4b953398cff91e70e367f7f0f5a04\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dung1\.gradle\caches\transforms-3\4eb4b953398cff91e70e367f7f0f5a04\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+65        </provider>
+66    </application>
+67
+68</manifest>

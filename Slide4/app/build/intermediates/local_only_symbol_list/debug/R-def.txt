@@ -14,9 +14,12 @@ id chizu
 id content
 id direct
 id donate
+id edit
 id editTextNumberDecimal1
+id grid
 id mobile_list
 id moneyTotal
+id myLinearLayout
 id name
 id numberPicker
 id numberPicker1
@@ -28,8 +31,10 @@ id please
 id preOrder
 id progressAmount
 id progressBar
+id selection
 id shape_1
 id shape_2
+id spinner
 id titleapp
 id toolbar
 id total
@@ -37,8 +42,11 @@ id totaltext
 id tp_2
 id tp_3
 id welcome
+layout activity_complete_text_viw
+layout activity_grid_view
 layout activity_list_view
 layout activity_main
+layout activity_spinner
 layout tuan4_bai1_constraintlayout
 layout tuan4_bai1_linearlayout
 layout tuan4_bai1_relativelayout
@@ -47,6 +55,7 @@ layout tuan4_bai2_constraintlayout
 layout tuan4_bai2_linearlayout
 layout tuan4_bai2_relativelayout
 layout tuan4_bai2_tablelayout
+menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

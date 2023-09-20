@@ -28,10 +28,19 @@
         android:testOnly="true"
         android:theme="@style/Theme.Slide4" >
         <activity
+            android:name="com.example.slide4.CompleteTextViw"
+            android:exported="false" />
+        <activity
+            android:name="com.example.slide4.GridView"
+            android:exported="false" />
+        <activity
+            android:name="com.example.slide4.Spinner"
+            android:exported="false" />
+        <activity
             android:name="com.example.slide4.ListView"
             android:exported="false" />
         <activity
-            android:name="com.example.slide4.Tuan4Bai1ConstraintlayoutActivity"
+            android:name="com.example.slide4.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,6 +48,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.slide4.Tuan4Bai1ConstraintlayoutActivity"
+            android:exported="true" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
