@@ -3099,6 +3099,7 @@ int id bounce 0x7f08005e
 int id bounceBoth 0x7f08005f
 int id bounceEnd 0x7f080060
 int id bounceStart 0x7f080061
+int id bruh 0x7f0801f1
 int id buttonPanel 0x7f080062
 int id cache_measures 0x7f080063
 int id callMeasure 0x7f080064
@@ -3269,6 +3270,7 @@ int id material_value_index 0x7f080108
 int id matrix 0x7f080109
 int id mes 0x7f08010a
 int id message 0x7f08010b
+int id messageInput 0x7f0801f2
 int id middle 0x7f08010c
 int id mini 0x7f08010d
 int id month_grid 0x7f08010e
@@ -3337,6 +3339,7 @@ int id path 0x7f08014c
 int id pathRelative 0x7f08014d
 int id peekHeight 0x7f08014e
 int id percent 0x7f08014f
+int id phoneInput 0x7f0801f0
 int id pin 0x7f080150
 int id position 0x7f080151
 int id postLayout 0x7f080152
@@ -3611,6 +3614,7 @@ int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_another 0x7f0b001c
+int layout activity_bruh 0x7f0b006b
 int layout activity_main 0x7f0b001d
 int layout custom_dialog 0x7f0b001e
 int layout design_bottom_navigation_item 0x7f0b001f

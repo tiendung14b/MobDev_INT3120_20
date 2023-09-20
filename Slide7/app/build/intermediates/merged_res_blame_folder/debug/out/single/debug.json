@@ -28,6 +28,10 @@
         "source": "C:\\Users\\dung1\\.gradle\\daemon\\8.0\\com.example.slide7.app-main-30:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\dung1\\.gradle\\daemon\\8.0\\com.example.slide7.app-merged_res-28:\\layout_activity_bruh.xml.flat",
+        "source": "C:\\Users\\dung1\\.gradle\\daemon\\8.0\\com.example.slide7.app-main-30:\\layout\\activity_bruh.xml"
+    },
+    {
         "merged": "C:\\Users\\dung1\\.gradle\\daemon\\8.0\\com.example.slide7.app-merged_res-28:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\dung1\\.gradle\\daemon\\8.0\\com.example.slide7.app-main-30:\\mipmap-mdpi\\ic_launcher.webp"
     },

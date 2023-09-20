@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Slide7" >
         <activity
+            android:name="com.example.slide7.Bruh"
+            android:exported="false" />
+        <activity
             android:name="com.example.slide7.AnotherActivity"
             android:exported="false" />
         <activity

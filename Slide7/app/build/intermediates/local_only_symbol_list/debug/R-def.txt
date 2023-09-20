@@ -4,10 +4,14 @@ color black
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id bruh
 id feedback
 id input
 id mes
+id messageInput
+id phoneInput
 layout activity_another
+layout activity_bruh
 layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round
