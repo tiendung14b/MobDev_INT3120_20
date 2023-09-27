@@ -12,11 +12,13 @@ id brruh
 id bruh
 id chizu
 id content
+id contextmenu
 id direct
 id donate
 id edit
 id editTextNumberDecimal1
 id grid
+id grp
 id mobile_list
 id moneyTotal
 id myLinearLayout

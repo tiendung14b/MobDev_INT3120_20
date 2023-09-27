@@ -40,6 +40,10 @@
         "source": "C:\\Users\\dung1\\.gradle\\daemon\\8.0\\com.example.slide4.app-main-30:\\layout\\tuan4_bai2_relativelayout.xml"
     },
     {
+        "merged": "com.example.slide4.app-merged_res-28:/menu_menu.xml.flat",
+        "source": "com.example.slide4.app-main-30:/menu/menu.xml"
+    },
+    {
         "merged": "C:\\Users\\dung1\\.gradle\\daemon\\8.0\\com.example.slide4.app-merged_res-28:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\dung1\\.gradle\\daemon\\8.0\\com.example.slide4.app-main-30:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
@@ -58,10 +62,6 @@
     {
         "merged": "C:\\Users\\dung1\\.gradle\\daemon\\8.0\\com.example.slide4.app-merged_res-28:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\dung1\\.gradle\\daemon\\8.0\\com.example.slide4.app-main-30:\\drawable\\ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "com.example.slide4.app-merged_res-28:/layout_activity_grid_view.xml.flat",
-        "source": "com.example.slide4.app-main-30:/layout/activity_grid_view.xml"
     },
     {
         "merged": "C:\\Users\\dung1\\.gradle\\daemon\\8.0\\com.example.slide4.app-merged_res-28:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",

@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="baitap"
+        android:id="@+id/grp"
+        app:showAsAction="collapseActionView">
+    </item>
     <item
-        android:title="1"
-        android:onClick="on1"
-        />
+        android:title="baitap 4_1 2" />
     <item
-        android:title="2"
-        />
+        android:title="baitap 4_1 3" />
     <item
-        android:title="3"
-        />
+        android:title="baitap 4_1 4" />
     <item
-        android:title="4"
-        />
+        android:title="baitap 4_2 1" />
+    <item
+        android:title="baitap 4_2 2" />
+    <item
+        android:title="baitap 4_3 3" />
+    <item
+        android:title="baitap 4_4 4" />
+    <item android:title="slide">
+        <menu>
+            <item android:title="gridview" />
+            <item android:title="listview" />
+            <item android:title="completetext" />
+            <item android:title="spinner"
+                android:id="@+id/spinner"/>
+        </menu>
+    </item>
 </menu>

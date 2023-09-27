@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Slide4" >
         <activity
+            android:name="com.example.slide4.Bai411"
+            android:exported="false" />
+        <activity
             android:name="com.example.slide4.CompleteTextViw"
             android:exported="false" />
         <activity

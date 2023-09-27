@@ -28,7 +28,7 @@ public class GridView extends AppCompatActivity implements AdapterView.OnItemSel
         selection.setText(items[i]);
     }
 
-    public void onBackO(View view) {
+    public void onBack(View view) {
         onBackPressed();
     }
     @Override
