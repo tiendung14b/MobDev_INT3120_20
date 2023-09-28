@@ -11,20 +11,45 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/name"
+        android:id="@+id/nameinput"
         android:hint="Enter your name" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="onEditFile"
+        android:text="onEditInterFile"
         android:onClick="onEditFile" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="onReadFile"
+        android:text="onReadInterFile"
         android:onClick="onViewFile" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onReadExtFile"
+        android:onClick="onReadFile" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onSaveExtFile"
+        android:onClick="onSaveExtFile"
+        android:id="@+id/saveExtFile" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onInsert"
+        android:text="onInsert" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onViewAll"
+        android:text="onViewAll" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt"/>
 </LinearLayout>
