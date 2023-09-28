@@ -86,8 +86,8 @@ public class MainActivity extends AppCompatActivity {
     if (!dir.exists()){
       dir.mkdir();
     }
-    File file = new File(dir,"hell.txt");
     EditText nameinput = findViewById(R.id.nameinput);
+    File file = new File(dir,nameinput.getText().toString());
     OutputStream outputStream = null;
     String txt = nameinput.getText().toString();
     try {
